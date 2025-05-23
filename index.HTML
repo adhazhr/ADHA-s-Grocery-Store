@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADHA'S GROCER</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <style> 
+               .btn {
+                        border: none;
+                        background-color: inherit;
+                        padding: 14px 28px;
+                        font-size: 16px;
+                        cursor: pointer;
+                        display: inline-block;
+                    }
+
+                    body {font-family: Arial, Helvetica, sans-serif;}
+
+                .navbar {
+                          width: 100%;
+                          background-color: #555;
+                          overflow: auto;
+                        }
+                .navbar a {
+                           float: left;
+                           padding: 12px;
+                           color: white;
+                           text-decoration: none;
+                           font-size: 17px;
+                          }     
+                .navbar a:hover {
+                                  background-color: #000;
+                                }
+
+                .active {
+                          background-color: #04AA6D;
+                        }   
+                @media screen and (max-width: 450px) {
+                .navbar a {
+                            float: none;
+                            display: block;
+                          }
+                         }
+</style>
+
+              <div class="navbar">
+                 <a button class="btn home" href="index.html">HOME</a></button>
+                 <a button class="btn about" href="about.html">ABOUT US</a></button> 
+                 <a button class="btn products"href="products.html">OUR PRODUCT</a></button>
+                 <a button class="btn gallery" href="gallery.html">GALLERY</a></button>
+                 <a button class="btn contact" href="contact.html">CONTACT US</a></button>
+              </div>
+<div class="row">
+  <div class="column">
+        <img src="https://cdn.create.vista.com/downloads/73f1b298-b3bb-4fb0-98ff-ff07542b8ef1_1024.jpeg" style="width:110%">
+  </div>
+  <div class="column">
+    <img src="https://www.everydayonsales.com/wp-content/uploads/2025/05/Indomie-Malaysia-Giveaway-Exciting-Chance-to-Win-by-Shopping-on-Shopee.jpg" style="width:124.5%">
+  </div>
+  <div class="column">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiht9M_5VmmrsE3xxJnJkVs3CV8k84ipsQ94E_7Cjayi-1UbpkhxQ6kmQI9UPALiBmDtLDsVWxquPMxzZenNHg_F6Z0i9T9u5TVnXF-mUL6wi0hTOC_tbaLMsc6AFYLlSf-oAccvDI_GbJu4Tw2tW6eApGQoiHpA-vUmsxGLcPLOKayMNWOXAa06BCx7A/s4784/Tyson_KV_malaysia_vertical.jpg"style="width:98.1%">
+  </div>
+</div>
+    </nav>
+    </header>
+   
+    <footer>
+        <p>Follow Us</p>
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE36VNzTX9q0G1WpPcnS_hDGk2_0e6TcsYwCO-uz-igLbaY17nf1BB5w3M1CCxBcc3Ng&usqp=CAU">
+        <p>2025 &copy; ADHA's Grocer</p>
+    </footer>
+</body> 
+</html>

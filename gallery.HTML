@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADHA'S GROCER</title>
+    <link rel="stylesheet" href="style.css" />
+   <style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <style> 
+               .btn {
+                        border: none;
+                        background-color: inherit;
+                        padding: 14px 28px;
+                        font-size: 16px;
+                        cursor: pointer;
+                        display: inline-block;
+                    }
+
+                    body {font-family: Arial, Helvetica, sans-serif;}
+
+                .navbar {
+                          width: 100%;
+                          background-color: #555;
+                          overflow: auto;
+                        }
+                .navbar a {
+                           float: left;
+                           padding: 12px;
+                           color: white;
+                           text-decoration: none;
+                           font-size: 17px;
+                          }     
+                .navbar a:hover {
+                                  background-color: #000;
+                                }
+
+                .active {
+                          background-color: #04AA6D;
+                        }   
+                @media screen and (max-width: 450px) {
+                .navbar a {
+                            float: none;
+                            display: block;
+                          }
+                         }
+</style>
+
+              <div class="navbar">
+                 <a button class="btn home" href="index.html">HOME</a></button>
+                 <a button class="btn about" href="about.html">ABOUT US</a></button> 
+                 <a button class="btn products"href="products.html">OUR PRODUCT</a></button>
+                 <a button class="btn gallery" href="gallery.html">GALLERY</a></button>
+                 <a button class="btn contact" href="contact.html">CONTACT US</a></button>
+              </div>
+              
+    </nav>
+    </header>
+    <div class="row">
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStSKF1zd9prwTRIM8SXBjYCYgRQodgsy8zww&s" style="width:109%">
+  </div>
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN8l0mEUrZbxwr3AQdpBLeoVXIXGgTth1S9g&s" style="width:122.23%">
+  </div>
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoN3sorfftjKNsbwrXW-mGYAMTzMUA_cutqg&s" style="width:130.35%">
+  </div>
+</div>
+</body>
+</html>
